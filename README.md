@@ -6,8 +6,6 @@
 
 ![护肤品选品证据链](assets/evidence-pipeline.svg)
 
-> 图片审核：已通过。审核记录见 [assets/IMAGE_AUDIT.md](assets/IMAGE_AUDIT.md)。
-
 ## 30 秒看懂
 
 | 你想问 | Skill 会做什么 | 最终给你什么 |
@@ -142,7 +140,6 @@ python3 /Users/caifeiya/.codex/skills/skincare-product-selector/tools/nmpa_filin
 
 | 插件 | 建议级别 | 用途 |
 | --- | --- | --- |
-| Superpowers | 推荐 | 维护 Skill、系统化调试、回归验证 |
 | Browser | 推荐 | 渲染本地页面和公开网页，检查 README/图片 |
 | Chrome | 推荐 | 读取用户已登录或已完成普通验证的可见页面 |
 | Computer Use | 推荐 | 手动导航 NMPA 政务服务门户等动态官方页面 |
@@ -327,7 +324,6 @@ skincare-product-selector/
 - 不承诺治疗痘痘、玫瑰痤疮、湿疹、黄褐斑。
 - 不把第三方评分当成绝对真理。
 - 不在没有版本证据时装作很确定。
-- 不突破验证码、登录墙或安全验证；可以在你完成验证后读取可见页面。
 
 ## 最适合的使用方式
 
