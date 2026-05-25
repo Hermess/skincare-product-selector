@@ -1,0 +1,47 @@
+{
+  "skill": "skincare-product-selector",
+  "python": {
+    "minimum_version": "3.9",
+    "packages": [
+      "requests",
+      "beautifulsoup4",
+      "lxml",
+      "playwright"
+    ],
+    "post_install": [
+      "python3 -m playwright install chromium"
+    ]
+  },
+  "plugins": [
+    {
+      "name": "Superpowers",
+      "required": false,
+      "reason": "Recommended for skill editing, TDD-style verification, debugging, and finishing checks."
+    },
+    {
+      "name": "Browser",
+      "required": false,
+      "reason": "Recommended for inspecting rendered pages and local HTML/README previews."
+    },
+    {
+      "name": "Chrome",
+      "required": false,
+      "reason": "Recommended for user-session pages, login-gated visible pages, CosDNA-like pages, and normal security verification handoff."
+    },
+    {
+      "name": "Computer Use",
+      "required": false,
+      "reason": "Recommended for manually navigating the NMPA portal or other dynamic official pages when automation is not enough."
+    },
+    {
+      "name": "Spreadsheets",
+      "required": false,
+      "reason": "Optional for exporting product comparisons to spreadsheet workbooks."
+    },
+    {
+      "name": "Documents",
+      "required": false,
+      "reason": "Optional for packaging final comparison reports as documents."
+    }
+  ]
+}

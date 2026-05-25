@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="820" viewBox="0 0 1440 820" role="img" aria-labelledby="title desc">
+  <title id="title">护肤品数据源可信度阶梯</title>
+  <desc id="desc">展示从 NMPA 和包装到用户评价的数据源优先级。</desc>
+  <defs>
+    <style>
+      .bg { fill: #f8faf8; }
+      .title { font: 700 44px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #20302d; }
+      .subtitle { font: 400 22px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #61726e; }
+      .tier { font: 800 26px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #ffffff; }
+      .label { font: 700 24px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #17332d; }
+      .text { font: 400 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #465955; }
+      .note { font: 700 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #a35418; }
+      .row { fill: #ffffff; stroke: #d9e3df; stroke-width: 2; rx: 18; }
+      .p0 { fill: #0d7c66; }
+      .p1 { fill: #2b9c80; }
+      .p2 { fill: #6aa982; }
+      .p25 { fill: #d49a3a; }
+      .p3 { fill: #6f85a3; }
+      .p5 { fill: #9a9a9a; }
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="820"/>
+  <text class="title" x="82" y="84">数据源可信度阶梯</text>
+  <text class="subtitle" x="84" y="124">越靠上越接近真实版本；越靠下越适合作为补充，而不是最终依据。</text>
+
+  <rect class="row" x="96" y="184" width="1248" height="86"/>
+  <rect class="p0" x="120" y="204" width="92" height="46" rx="23"/>
+  <text class="tier" x="143" y="237">S0</text>
+  <text class="label" x="244" y="224">包装 + NMPA / 化妆品监管备案详情</text>
+  <text class="text" x="244" y="252">国行配方与版本的一号证据，优先确认备案/注册编号。</text>
+
+  <rect class="row" x="96" y="294" width="1248" height="86"/>
+  <rect class="p1" x="120" y="314" width="92" height="46" rx="23"/>
+  <text class="tier" x="143" y="347">S1</text>
+  <text class="label" x="244" y="334">品牌官网 / 官方旗舰店</text>
+  <text class="text" x="244" y="362">用于找备案号、产品版本、官方宣称和公开配方。</text>
+
+  <rect class="row" x="96" y="404" width="1248" height="86"/>
+  <rect class="p2" x="120" y="424" width="92" height="46" rx="23"/>
+  <text class="tier" x="143" y="457">S2</text>
+  <text class="label" x="244" y="444">天猫 / 淘宝 / 京东 / 小红书 / 抖音 / 唯品会</text>
+  <text class="text" x="244" y="472">只采信官方或大平台页面做价格、容量和购买渠道证据。</text>
+
+  <rect class="row" x="96" y="514" width="1248" height="86"/>
+  <rect class="p25" x="120" y="534" width="92" height="46" rx="23"/>
+  <text class="tier" x="136" y="567">S2.5</text>
+  <text class="label" x="244" y="554">淘宝/天猫大 V 店、达人店、高销量店</text>
+  <text class="text" x="244" y="582">可以做非官方价格参考，不能证明配方版本。</text>
+
+  <rect class="row" x="96" y="624" width="1248" height="86"/>
+  <rect class="p3" x="120" y="644" width="92" height="46" rx="23"/>
+  <text class="tier" x="143" y="677">S3</text>
+  <text class="label" x="244" y="664">INCIdecoder / 美丽修行 / CosDNA / SkinSort</text>
+  <text class="text" x="244" y="692">做成分解释和交叉校验，不覆盖官方备案。</text>
+
+  <rect class="row" x="96" y="734" width="1248" height="52"/>
+  <rect class="p5" x="120" y="748" width="92" height="28" rx="14"/>
+  <text class="tier" x="146" y="770" font-size="18">S5</text>
+  <text class="note" x="244" y="768">小导购站、SEO 比价页、内容农场：只当搜索线索，不进最终推荐证据。</text>
+</svg>

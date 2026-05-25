@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="760" viewBox="0 0 1440 760" role="img" aria-labelledby="title desc">
+  <title id="title">成分位置判断示意图</title>
+  <desc id="desc">展示配料表前段、中段、尾段和微量成分例外。</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfaf7; }
+      .title { font: 700 44px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #24312f; }
+      .subtitle { font: 400 22px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #60716d; }
+      .panel { fill: #ffffff; stroke: #d9e3df; stroke-width: 2; rx: 22; }
+      .front { fill: #e4f4ef; stroke: #0e7c66; }
+      .mid { fill: #eef2f7; stroke: #6f85a3; }
+      .tail { fill: #fff3d8; stroke: #d49a3a; }
+      .tiny { fill: #f5e6e1; stroke: #c86f52; }
+      .head { font: 800 24px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #17332d; }
+      .text { font: 400 19px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #465955; }
+      .pill { font: 700 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", sans-serif; fill: #ffffff; }
+    </style>
+  </defs>
+  <rect class="bg" width="1440" height="760"/>
+  <text class="title" x="82" y="86">成分不是“有就行”，位置也要看</text>
+  <text class="subtitle" x="84" y="124">配料表越靠前，通常比例越高；尾段和微量成分要按法规例外谨慎解释。</text>
+
+  <rect class="panel" x="86" y="184" width="1256" height="470"/>
+  <rect class="front" x="134" y="238" width="276" height="286" rx="20"/>
+  <rect x="158" y="262" width="92" height="34" rx="17" fill="#0e7c66"/>
+  <text class="pill" x="181" y="286">前段</text>
+  <text class="head" x="158" y="336">基底和主支撑</text>
+  <text class="text" x="158" y="374">常见：水、甘油、</text>
+  <text class="text" x="158" y="404">丁二醇、油脂、硅油</text>
+  <text class="text" x="158" y="456">决定肤感、保湿、</text>
+  <text class="text" x="158" y="486">清爽或厚重程度</text>
+
+  <rect class="mid" x="442" y="238" width="276" height="286" rx="20"/>
+  <rect x="466" y="262" width="92" height="34" rx="17" fill="#6f85a3"/>
+  <text class="pill" x="489" y="286">中段</text>
+  <text class="head" x="466" y="336">功能成分区</text>
+  <text class="text" x="466" y="374">保湿、舒缓、抗氧、</text>
+  <text class="text" x="466" y="404">控油成分常在这里</text>
+  <text class="text" x="466" y="456">需要结合浓度敏感性</text>
+  <text class="text" x="466" y="486">和配方协同判断</text>
+
+  <rect class="tail" x="750" y="238" width="276" height="286" rx="20"/>
+  <rect x="774" y="262" width="92" height="34" rx="17" fill="#d49a3a"/>
+  <text class="pill" x="797" y="286">尾段</text>
+  <text class="head" x="774" y="336">低剂量或辅助</text>
+  <text class="text" x="774" y="374">香精、防腐、调节剂、</text>
+  <text class="text" x="774" y="404">部分明星成分</text>
+  <text class="text" x="774" y="456">不能只因“含有”</text>
+  <text class="text" x="774" y="486">就默认强功效</text>
+
+  <rect class="tiny" x="1058" y="238" width="236" height="286" rx="20"/>
+  <rect x="1082" y="262" width="122" height="34" rx="17" fill="#c86f52"/>
+  <text class="pill" x="1101" y="286">微量例外</text>
+  <text class="head" x="1082" y="336">法规要分地区</text>
+  <text class="text" x="1082" y="374">中国大陆：≤0.1%</text>
+  <text class="text" x="1082" y="404">可另列且不降序</text>
+  <text class="text" x="1082" y="456">美国常见：≤1%</text>
+  <text class="text" x="1082" y="486">尾段可不降序</text>
+
+  <text class="head" x="146" y="604">Skill 输出会写：成分名 + 第几位 + 前段/中段/尾段 + 对你肤质的意义。</text>
+</svg>
