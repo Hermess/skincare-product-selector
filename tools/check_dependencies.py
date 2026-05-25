@@ -22,7 +22,6 @@ PACKAGE_IMPORTS = {
 
 
 PLUGIN_HINT_PATHS = {
-    "Superpowers": [".codex/plugins/cache/openai-curated/superpowers", ".codex/skills/superpowers"],
     "Browser": [".codex/plugins/cache/openai-bundled/browser"],
     "Chrome": [".codex/plugins/cache/openai-bundled/chrome"],
     "Computer Use": [".codex/plugins/cache/openai-primary-runtime/computer-use", ".codex/plugins/cache/openai-bundled/computer-use"],

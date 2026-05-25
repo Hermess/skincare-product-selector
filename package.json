@@ -1,0 +1,27 @@
+{
+  "name": "skincare-product-selector",
+  "version": "0.1.0",
+  "description": "Codex skill for evidence-backed skincare product comparison and selection.",
+  "license": "MIT",
+  "bin": {
+    "skincare-product-selector": "bin/skincare-product-selector.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "INSTALL.md",
+    "DESIGN.md",
+    "dependencies.json",
+    "requirements.txt",
+    "assets",
+    "references",
+    "templates",
+    "tests",
+    "tools",
+    "bin"
+  ],
+  "scripts": {
+    "doctor": "python3 tools/check_dependencies.py",
+    "test": "python3 tests/test_source_policy.py && python3 tests/test_ingredient_positions.py && python3 tests/test_nmpa_filing_route.py && python3 tests/test_readme_assets_and_dependencies.py"
+  }
+}

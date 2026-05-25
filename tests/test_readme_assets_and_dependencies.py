@@ -24,7 +24,7 @@ class ReadmeAssetsAndDependenciesTest(unittest.TestCase):
         manifest = json.loads((SKILL_DIR / "dependencies.json").read_text(encoding="utf-8"))
         plugin_names = {plugin["name"] for plugin in manifest["plugins"]}
 
-        for expected in {"Superpowers", "Browser", "Chrome", "Computer Use"}:
+        for expected in {"Browser", "Chrome", "Computer Use"}:
             self.assertIn(expected, plugin_names)
 
 

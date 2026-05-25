@@ -14,11 +14,6 @@
   },
   "plugins": [
     {
-      "name": "Superpowers",
-      "required": false,
-      "reason": "Recommended for skill editing, TDD-style verification, debugging, and finishing checks."
-    },
-    {
       "name": "Browser",
       "required": false,
       "reason": "Recommended for inspecting rendered pages and local HTML/README previews."

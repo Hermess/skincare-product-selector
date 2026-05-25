@@ -136,6 +136,18 @@ python3 /Users/caifeiya/.codex/skills/skincare-product-selector/tools/nmpa_filin
 
 ## 安装时依赖提示
 
+一键安装：
+
+```bash
+npx -y github:Hermess/skincare-product-selector install
+```
+
+连 Python 抓取依赖一起安装：
+
+```bash
+npx -y github:Hermess/skincare-product-selector install --with-python
+```
+
 建议安装/启用 Skill 时，同时提示这些插件：
 
 | 插件 | 建议级别 | 用途 |
